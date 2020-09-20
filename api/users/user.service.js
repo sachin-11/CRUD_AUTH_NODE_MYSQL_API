@@ -61,8 +61,8 @@ module.exports = {
     pool.query(
       `update registration set firstName=?, lastName=?, gender=?, email=?, password=?, number=? where id = ?`,
       [
-        data.first_name,
-        data.last_name,
+        data.firstname,
+        data.lastname,
         data.gender,
         data.email,
         data.password,
